@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "name": "es6pack-example",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "prestart": "npm install"
+  },
+  "keywords": [],
+  "author": "Eric Bednarz <github@bednarz.nl> (http://bednarz.nl/)",
+  "license": "MIT",
+  "devDependencies": {
+    "connect": "^3.4.1",
+    "open": "0.0.5",
+    "serve-static": "^1.11.1"
+  }
+}

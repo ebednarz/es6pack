@@ -1,0 +1,29 @@
+{
+  "name": "es6pack",
+  "version": "0.9.0",
+  "license": "MIT",
+  "description": "Safe & performant ECMAScript 2015 script loading for the browser.",
+  "author": "Eric Bednarz <github@bednarz.nl>",
+  "keywords": [
+    "browser",
+    "enhancement",
+    "es6",
+    "non-blocking",
+    "progressive"
+  ],
+  "main": "./distribution/es6pack.js",
+  "scripts": {
+    "prepublish": "mkdirp ./distribution && node ./build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ebednarz/es6pack.git"
+  },
+  "devDependencies": {
+    "connect": "^3.4.1",
+    "eslint": "^3.4.0",
+    "js-string-escape": "^1.0.0",
+    "mkdirp": "^0.5.1",
+    "uglify-js": "^2.4.23"
+  }
+}
