@@ -1,6 +1,6 @@
 {
   "name": "es6pack",
-  "version": "0.10.1",
+  "version": "0.10.2",
   "license": "MIT",
   "description": "Safe and performant ECMAScript 2015 script loading for the browser.",
   "author": "Eric Bednarz <github@bednarz.nl>",
