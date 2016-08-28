@@ -1,4 +1,4 @@
-<h1 text-aling="center">
+<h1 text-align="center">
   <img src="https://cdn.rawgit.com/ebednarz/es6pack/master/assets/es6pack.svg" width="400">
 </h1>
 
