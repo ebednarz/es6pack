@@ -1,4 +1,4 @@
-<h1 text-align="center">
+<h1>
   <img src="https://cdn.rawgit.com/ebednarz/es6pack/master/assets/es6pack.svg" width="400">
 </h1>
 
@@ -98,7 +98,7 @@ inline script because the CSSOM blocks script execution:
     - `getElementsByClassName`
     - `querySelectorAll`
 - `HTMLElement` instances have a `classList` object
-- `HTMLScriptElement` has boolean IDL attribute `async`
+- `HTMLScriptElement` instances have a boolean `async` IDL attribute
 - SVG can be used in HTML
 
 ## Example
