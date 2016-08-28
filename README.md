@@ -4,7 +4,7 @@
 
 [![NPM version][npm-image]][npm-url]
 
-> Safe & performant ECMAScript 2015 script loading for the browser.
+> Safe and performant ECMAScript 2015 script loading for the browser.
 
 ## Installation
 
