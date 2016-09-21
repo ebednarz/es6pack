@@ -1,5 +1,5 @@
 <h1>
-  <img src="https://cdn.rawgit.com/ebednarz/es6pack/master/assets/es6pack.svg" width="400">
+  <img src="https://cdn.rawgit.com/ebednarz/es6pack/master/asset/es6pack.svg" width="400">
 </h1>
 
 [![NPM version][npm-image]][npm-url]
