@@ -4,14 +4,24 @@
   "version": "0.0.1",
   "description": "",
   "scripts": {
-    "prestart": "npm install"
+    "predev": "mkdirp public/script",
+    "dev": "watchify source/app.js -o 'exorcist public/script/bundle.map > public/script/bundle.js' -d -t [ babelify ]",
+    "prestart": "npm install && npm run dev &"
   },
   "keywords": [],
-  "author": "Eric Bednarz <github@bednarz.nl> (http://bednarz.nl/)",
+  "author": "Eric Bednarz <github@bednarz.nl>",
   "license": "MIT",
   "devDependencies": {
+    "babel-plugin-minify-mangle-names": "0.0.2",
+    "babelify": "^7.3.0",
+    "babili": "0.0.4",
     "connect": "^3.4.1",
+    "exorcist": "^0.4.0",
     "open": "0.0.5",
-    "serve-static": "^1.11.1"
+    "serve-static": "^1.11.1",
+    "watchify": "^3.7.0"
+  },
+  "dependencies": {
+    "babel-plugin-minify-dead-code-elimination": "0.0.1"
   }
 }

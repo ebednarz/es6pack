@@ -1,4 +1,5 @@
 /distribution/
+/example/public/script
 /sandbox/
 node_modules/
 npm-debug.log*

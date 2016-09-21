@@ -2,7 +2,7 @@ const connect = require('connect');
 const serveStatic = require('serve-static');
 const fs = require('fs');
 const open = require('open');
-const es6pack = require('../distribution/es6pack');
+const es6pack = require('..');
 
 const template = fs
   .readFileSync('./template.html', 'utf8')
@@ -10,6 +10,7 @@ const template = fs
 
 connect()
   .use(serveStatic('./public'))
+  .use(serveStatic('./node_modules'))
   .use((request, response) => {
     response.end(template);
   })
